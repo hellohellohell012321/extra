@@ -1,0 +1,10 @@
+while true do
+    
+local args = {
+    [1] = ping
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("PingRem"):FireServer(unpack(args))
+
+wait(0)
+end
